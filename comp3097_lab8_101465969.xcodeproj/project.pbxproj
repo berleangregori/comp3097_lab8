@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6FF88D442D83AF660076AF9F /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF88D432D83AF660076AF9F /* Task+CoreDataProperties.swift */; };
+		6FF88D452D83AF660076AF9F /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF88D422D83AF660076AF9F /* Task+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6FF88D252D83AD510076AF9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,8 @@
 		6FF88D0B2D83AD4D0076AF9F /* comp3097_lab8_101465969.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comp3097_lab8_101465969.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF88D242D83AD510076AF9F /* comp3097_lab8_101465969Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comp3097_lab8_101465969Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF88D2E2D83AD510076AF9F /* comp3097_lab8_101465969UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comp3097_lab8_101465969UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF88D422D83AF660076AF9F /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6FF88D432D83AF660076AF9F /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +95,8 @@
 		6FF88D022D83AD4D0076AF9F = {
 			isa = PBXGroup;
 			children = (
+				6FF88D422D83AF660076AF9F /* Task+CoreDataClass.swift */,
+				6FF88D432D83AF660076AF9F /* Task+CoreDataProperties.swift */,
 				6FF88D0D2D83AD4D0076AF9F /* comp3097_lab8_101465969 */,
 				6FF88D272D83AD510076AF9F /* comp3097_lab8_101465969Tests */,
 				6FF88D312D83AD510076AF9F /* comp3097_lab8_101465969UITests */,
@@ -249,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF88D442D83AF660076AF9F /* Task+CoreDataProperties.swift in Sources */,
+				6FF88D452D83AF660076AF9F /* Task+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
